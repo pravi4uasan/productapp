@@ -8,9 +8,9 @@
 	</parent>
 	
   <groupId>com.tech</groupId>
-  <artifactId>products</artifactId>
+  <artifactId>productsreview</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>products</name>
+  <name>productsreview</name>
   <description>Products and Review Services</description>
   
 <properties>
