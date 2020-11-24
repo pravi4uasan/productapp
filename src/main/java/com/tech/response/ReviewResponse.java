@@ -6,7 +6,7 @@ import lombok.Data;
 public class ReviewResponse {
 	
 	private String productId;
-	private int avgReviewScore;
+	private Double avgReviewScore;
 	private int numberOfReviews;
 
 }

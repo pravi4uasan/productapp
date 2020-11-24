@@ -15,6 +15,6 @@ public class ProductReviews {
 	@Id
 	private Long id;
 	private String product_id;
-	private String review_score;
+	private int review_score;
 	private String review_comment;
 }
