@@ -1,5 +1,5 @@
 # productreview
-Service used to get the review details of products like ,Total No of reviews,Average review score with Product Id
+Micro Service used to get the review details of products like ,Total No of reviews,Average review score with Product Id
 
 Exposes a GET method to get the data
 
