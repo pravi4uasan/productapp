@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: docker-k8s-productreview-deployment
+    labels:
+     app: docker-k8s-productreview
+spec:
+   replicas: 1
+   selector:
+      matchlables:
+      app: docker-k8s-productreview
+   template:
+    metadata:
+     lables:
+      app: docker-k8s-productreview
+     spec:
+      containers:
+       - name: docker-k8s-productreview
+         image: pk_docker/productreview
+         ports:
+         - containerPort:8080
